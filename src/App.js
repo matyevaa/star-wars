@@ -6,12 +6,15 @@ import {
   Route,
   Switch,
   Link,
-  Redirect
+  Redirect,
+  useParams,
+  useRouteMatch
 } from "react-router-dom";
 
 /* Pages */
 import MainPage from "./pages";
-import People from "./pages/people";
+import PeoplePage from "./pages/people";
+import CharPage from "./pages/people"
 import PlanetsPage from "./pages/planets";
 import FilmsPage from "./pages/films";
 import ErrorPage from "./pages/404";
@@ -24,11 +27,11 @@ class App extends React.Component {
       <Router>
         <Switch>
           <Route exact path="/" component={MainPage} />
-          <Route exact path="/people" component={People} />
-          <Route exact path="/planets" component={PlanetsPage} />
-          <Route exact path="/films" component={FilmsPage} />
+          <Route path="/people" component={PeoplePage} />
+          <Route path="/planets" component={PlanetsPage} />
+          <Route path="/films" component={FilmsPage} />
           <Route exact path="/404" component={ErrorPage} />
-          <Redirect to="/404" /> /* put on the very bottom */
+          <Route path="*"><Redirect to="/404" /></Route> /* put on the very bottom */
         </Switch>
       </Router>
     );
