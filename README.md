@@ -7,8 +7,6 @@ Follow the link to see the website: https://matyevaa.github.io/star-wars/ or see
 
 The goal of this assignment is to use React Router to create a moderately complex, multi-page application based on simulated application data.
 
-Here, you're provided with code for an application initially created using Create React App and then pared down somewhat to eliminate some clutter that's not relevant to the assignment.  All of the normal Create React App workflows will work as expected.  For example, you can launch the development server by running `npm start` (making sure to run `npm install` before you run the app for the first time).
-
 In addition to the application code, there's also a directory of simulated application data in `src/data/`.  This data is derived from the [Star Wars API](https://swapi.dev/) (which is missing some movies, unfortunately) and represents typical data you might build a web application around.  The data is in JSON format (which can be directly `import`ed via Webpack) and is split into three different categories:
   * People (`people.json`)
   * Planets (`planets.json`)
@@ -16,9 +14,7 @@ In addition to the application code, there's also a directory of simulated appli
 
 Each of the data files has the same overall structure, though the individual data elements in each file contains slightly different fields that are relevant to the specific kind of data.  For example, elements in `people.json` have fields like `name`, `height`, `mass`, etc., while elements in `films.json` have fields like `title`, `opening_crawl`, `director`, etc.  Take a minute to familiarize yourself with the format of each kind of data element because you will have to implement components to display each kind of data.
 
-Your job for this assignment is to develop an app that lets you explore this data.  The app will have three main "pages", one for each kind of data.  On each of these pages, the user will be able to select one specific item from the corresponding collection of data to see more details about that item.  Below is a simple mock that demonstrates very roughly what the app might look like:
-
-![Application mock](app-mock.jpg)
+Your job for this assignment is to develop an app that lets you explore this data.  The app will have three main "pages", one for each kind of data.  On each of these pages, the user will be able to select one specific item from the corresponding collection of data to see more details about that item.
 
 The application you write should contain three main structural elements, each of which is described below.  Importantly, you must use React Router to implement the application's navigational features.
 
@@ -53,3 +49,12 @@ In addition, you should implement a very basic 404 page to handle any URLs that 
 ## Application styling
 
 To accomplish some of the layout required in the description above, CSS code has been written for this application.
+
+## Working with this code
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Before running this app for the first time, make sure to run `npm install` to install needed dependencies. Then, to run the app and see it in your browser, you can run
+```
+npm start
+```
+This will run the app in the development mode, and it should automatically open [http://localhost:3000](http://localhost:3000) to view the app in your browser (though you can manually open that URL in your browser, too).
