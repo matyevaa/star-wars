@@ -9,7 +9,7 @@ const MainPage = () => {
 
     <div>
       <ul class="nav_list">
-        <li id="nav_item" class="active"><a href="/">Star Wars</a></li>
+        <li id="nav_item" class="active"><a href="/star-wars">Star Wars</a></li>
         <li id="nav_item"><a href="/people">People</a></li>
         <li id="nav_item"><a href="/planets">Planets</a></li>
         <li id="nav_item"><a href="/films">Films</a></li>

@@ -26,7 +26,7 @@ class App extends React.Component {
     return (
       <Router>
         <Switch>
-          <Route path="/" component={MainPage} />
+          <Route exact path="/star-wars" component={MainPage} />
           <Route path="/people" component={PeoplePage} />
           <Route path="/planets" component={PlanetsPage} />
           <Route path="/films" component={FilmsPage} />
