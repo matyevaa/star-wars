@@ -1,13 +1,12 @@
 # Star Wars Application with React Router
 
 ### Assignment 2 for Advanced Web Development class at OSU instructed by professor R. Hess.
+The goal of this assignment is to use React Router to create a moderately complex, multi-page application based on simulated application data.
 Follow the link to see the website: https://matyevaa.github.io/star-wars/ or see the demo below:
 
 ![Screen capture of full app demo](src/images/star-wars-demo.gif)
 
-## Application features
-
-The goal of this assignment is to use React Router to create a moderately complex, multi-page application based on simulated application data.
+# Application features
 
 In addition to the application code, there's also a directory of simulated application data in `src/data/`.  This data is derived from the [Star Wars API](https://swapi.dev/) (which is missing some movies, unfortunately) and represents typical data you might build a web application around.  The data is in JSON format (which can be directly `import`ed via Webpack) and is split into three different categories:
   * People (`people.json`)
