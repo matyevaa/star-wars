@@ -1,7 +1,9 @@
-# Assignment 2
+# Star Wars Application with React Router
 
-**Assignment due at 11:59pm on Monday, 2/1/2021**<br>
-**Grading demo due by 11:59pm on Monday 2/22/2021**
+## Assignment 2 for Advanced Web Development class at OSU instructed by professor R. Hess.
+Follow the link to see the website: https://matyevaa.github.io/star-wars/ or see the demo below:
+
+![Screen capture of full app demo](screencaps/star-wars-demo.gif)
 
 The goal of this assignment is to use React Router to create a moderately complex, multi-page application based on simulated application data.
 
@@ -50,19 +52,4 @@ In addition, you should implement a very basic 404 page to handle any URLs that 
 
 ## Application styling
 
-You will need to write CSS to implement some of the features described above.  However, beyond the very broad description above, there are no strict requirements about how the application should be styled.  You can use the application mock above as inspiration, but there's no need to closely match its styling.  In general, don't worry about implementing a highly polished application in terms of styling.  In other words, your application can be minimally styled, as long as it satisfies the requirements described above.
-
-Note that the app is already set up so that you can write your CSS code in `src/App.css`.
-
-## Assignment submission
-
-We'll be using GitHub Classroom for this assignment, and you will submit your assignment via GitHub.  Just make sure your completed files are committed and pushed by the assignment's deadline to the master branch of the GitHub repo that was created for you by GitHub Classroom.  A good way to check whether your files are safely submitted is to look at the master branch your assignment repo on the github.com website (i.e. https://github.com/osu-cs499-w21/assignment-2-YourGitHubUsername/). If your changes show up there, you can consider your files submitted.
-
-## Assignment grading
-
-This assignment is worth 10 points total.
-
-Remember that in this course, programming assignments will be graded based on effort instead of correctness, and you will get full credit for an assignment if it is submitted on time and is clearly the product of a determined effort to solve the problem.  Again, If you’re unable to solve the homework problem, make sure to submit all code you’ve written, and then describe in comments in the source code the following three things:
-  1. How you attempted to solve the problem.
-  2. Where you ran into trouble.
-  3. What options you think (conceptually) might lead to a working solution.
+To accomplish some of the layout required in the description above, CSS code has been written for this application.
