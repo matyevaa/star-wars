@@ -28,8 +28,8 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/star-wars" component={MainPage} />
           <Route path="/star-wars/people" component={PeoplePage} />
-          <Route path="/planets" component={PlanetsPage} />
-          <Route path="/films" component={FilmsPage} />
+          <Route path="/star-wars/planets" component={PlanetsPage} />
+          <Route path="/star-wars/films" component={FilmsPage} />
           <Route exact path="/404" component={ErrorPage} />
           <Route path="*"><Redirect to="/404" /></Route> /* put on the very bottom */
         </Switch>
