@@ -1,9 +1,11 @@
 # Star Wars Application with React Router
 
-## Assignment 2 for Advanced Web Development class at OSU instructed by professor R. Hess.
+### Assignment 2 for Advanced Web Development class at OSU instructed by professor R. Hess.
 Follow the link to see the website: https://matyevaa.github.io/star-wars/ or see the demo below:
 
 ![Screen capture of full app demo](src/images/star-wars-demo.gif)
+
+## Application features
 
 The goal of this assignment is to use React Router to create a moderately complex, multi-page application based on simulated application data.
 
