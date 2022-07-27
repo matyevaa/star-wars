@@ -10,9 +10,9 @@ const MainPage = () => {
     <div>
       <ul class="nav_list">
         <li id="nav_item" class="active"><a href="/star-wars">Star Wars</a></li>
-        <li id="nav_item"><a href="/people">People</a></li>
-        <li id="nav_item"><a href="/planets">Planets</a></li>
-        <li id="nav_item"><a href="/films">Films</a></li>
+        <li id="nav_item"><a href="/star-wars/people">People</a></li>
+        <li id="nav_item"><a href="/star-wars/planets">Planets</a></li>
+        <li id="nav_item"><a href="/star-wars/films">Films</a></li>
       </ul>
       <img class="logo" src={logo} />
     </div>

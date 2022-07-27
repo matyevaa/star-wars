@@ -21,12 +21,12 @@ function FilmPage() {
         <li class="film_li"><span>Release date:</span> {films[filmPage].release_date}</li>
         <li class="film_li"><span>Characters:</span>
           <ul class="movies">
-            {films[filmPage].characters.map((value,index) => { return <li key={index}><Link to={value} instead>{value}</Link></li>})}
+            {films[filmPage].characters.map((value,index) => { return <li key={index}><Link to={`/star-wars${value}`} instead>{value}</Link></li>})}
           </ul>
         </li>
         <li id="last" class="char_li"><span>Planets:</span>
           <ul class="movies">
-            {films[filmPage].planets.map((value,index) => { return <li key={index}><Link to={value} instead>{value}</Link></li>})}
+            {films[filmPage].planets.map((value,index) => { return <li key={index}><Link to={`/star-wars${value}`} instead>{value}</Link></li>})}
           </ul>
         </li>
     </ul>
@@ -45,9 +45,9 @@ function FilmsPage() {
     <div>
       <ul class="nav_list">
         <li id="nav_item"><a href="/star-wars">Star Wars</a></li>
-        <li id="nav_item"><a href="/people">People</a></li>
-        <li id="nav_item"><a href="/planets">Planets</a></li>
-        <li id="nav_item" class="active"><a href="/films">Films</a></li>
+        <li id="nav_item"><a href="/star-wars/people">People</a></li>
+        <li id="nav_item"><a href="/star-wars/planets">Planets</a></li>
+        <li id="nav_item" class="active"><a href="/star-wars/films">Films</a></li>
       </ul>
 
       <div class="sidebar">

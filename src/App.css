@@ -6,6 +6,16 @@ body {
   overflow: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: #e6e6e6;
+  font-weight: 400;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .nav_list {
   list-style-type: none;
   overflow: hidden;
